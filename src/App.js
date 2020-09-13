@@ -1,24 +1,69 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Button, Box, Card, CardContent } from '@material-ui/core';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="content-wrapper">
+
+        <div className="title"><span role="img" aria-label="cloud" style={{ fontSize: '3rem', textAlign: 'center', margin: '.8rem' }}>🏃‍♂️</span> <h1>RUNTIME <a href="https://twitter.com/Hi_Im_Van" target="_blank" rel="noopener noreferrer">By Van S.</a></h1> </div>
+        
+        <Box display="flex" flexDirection="row" flexWrap="wrap" justifyContent="center">
+          <Card style={{margin: '40px'}}>
+            <CardContent>
+              <h1 className="ds">Singly Linked List</h1>
+              <ul>
+                <li>Access: O(n)</li>
+                <li>Search: O(n)</li>
+                <li>Insert: O(1)</li>
+                <li>Delete: O(1)</li>
+              </ul>
+              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/SLL.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >Code</Button></a>
+            </CardContent>
+          </Card>
+
+          <Card style={{margin: '40px'}}>
+            <CardContent>
+              <h1 className="ds">Doubly Linked List</h1>
+              <ul>
+                <li>Access: O(n)</li>
+                <li>Search: O(n)</li>
+                <li>Insert: O(1)</li>
+                <li>Delete: O(1)</li>
+              </ul>
+              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/DLL.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >Code</Button></a>
+            </CardContent>
+          </Card>
+
+          <Card style={{margin: '40px'}}>
+            <CardContent>
+              <h1 className="ds">Stack</h1>
+              <ul>
+                <li>Access: O(n)</li>
+                <li>Search: O(n)</li>
+                <li>Insert: O(1)</li>
+                <li>Delete: O(1)</li>
+              </ul>
+              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/Stack.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >Code</Button></a>
+            </CardContent>
+          </Card>
+
+          <Card style={{margin: '40px'}}>
+            <CardContent>
+              <h1 className="ds">Queue</h1>
+              <ul>
+                <li>Access: O(n)</li>
+                <li>Search: O(n)</li>
+                <li>Insert: O(1)</li>
+                <li>Delete: O(1)</li>
+              </ul>
+              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/Queue.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >Code</Button></a>
+            </CardContent>
+          </Card>
+        </Box>
+
+      </div>
     </div>
   );
 }
