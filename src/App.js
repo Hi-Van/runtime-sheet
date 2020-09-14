@@ -19,7 +19,7 @@ function App() {
                 <li>Insert: O(1)</li>
                 <li>Delete: O(1)</li>
               </ul>
-              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/SLL.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >Code</Button></a>
+              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/SLL.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >JavaScript</Button></a>
             </CardContent>
           </Card>
 
@@ -32,7 +32,7 @@ function App() {
                 <li>Insert: O(1)</li>
                 <li>Delete: O(1)</li>
               </ul>
-              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/DLL.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >Code</Button></a>
+              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/DLL.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >JavaScript</Button></a>
             </CardContent>
           </Card>
 
@@ -45,7 +45,7 @@ function App() {
                 <li>Insert: O(1)</li>
                 <li>Delete: O(1)</li>
               </ul>
-              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/Stack.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >Code</Button></a>
+              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/Stack.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >JavaScript</Button></a>
             </CardContent>
           </Card>
 
@@ -58,7 +58,7 @@ function App() {
                 <li>Insert: O(1)</li>
                 <li>Delete: O(1)</li>
               </ul>
-              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/Queue.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >Code</Button></a>
+              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/Queue.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >JavaScript</Button></a>
             </CardContent>
           </Card>
         </Box>
