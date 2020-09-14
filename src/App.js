@@ -7,7 +7,13 @@ function App() {
     <div className="App">
       <div className="content-wrapper">
 
-        <div className="title"><span role="img" aria-label="cloud" style={{ fontSize: '3rem', textAlign: 'center', margin: '.8rem' }}>🏃‍♂️</span> <h1>RUNTIME <a href="https://twitter.com/Hi_Im_Van" target="_blank" rel="noopener noreferrer">By Van S.</a></h1> </div>
+        <div className="title">
+          <span role="img" aria-label="cloud" style={{ fontSize: '3rem', textAlign: 'center', margin: '.8rem' }}>🏃‍♂️</span>
+          <h1>RUNTIME
+            <a href="https://twitter.com/Hi_Im_Van" target="_blank" rel="noopener noreferrer"> By Van S.</a>
+            <a href="https://github.com/MKaiserW" target="_blank" rel="noopener noreferrer"> and Max W.</a>
+          </h1>
+        </div>
         
         <Box display="flex" flexDirection="row" flexWrap="wrap" justifyContent="center">
           <Card style={{margin: '40px'}}>
@@ -19,7 +25,8 @@ function App() {
                 <li>Insert: O(1)</li>
                 <li>Delete: O(1)</li>
               </ul>
-              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/SLL.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >JavaScript</Button></a>
+              <a href="https://github.com/Hi-Van/DSA-in-Python-and-JavaScript/blob/master/SLL.py" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{margin:'20px'}} disableElevation >Python</Button></a>
+              <a href="https://github.com/Hi-Van/DSA-in-Python-and-JavaScript/blob/master/SLL.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ margin:'20px'}} disableElevation >JavaScript</Button></a>
             </CardContent>
           </Card>
 
@@ -32,7 +39,7 @@ function App() {
                 <li>Insert: O(1)</li>
                 <li>Delete: O(1)</li>
               </ul>
-              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/DLL.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >JavaScript</Button></a>
+              <a href="https://github.com/Hi-Van/DSA-in-Python-and-JavaScript/blob/master/DLL.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{margin:'20px'}} disableElevation >JavaScript</Button></a>
             </CardContent>
           </Card>
 
@@ -45,7 +52,7 @@ function App() {
                 <li>Insert: O(1)</li>
                 <li>Delete: O(1)</li>
               </ul>
-              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/Stack.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >JavaScript</Button></a>
+              <a href="https://github.com/Hi-Van/DSA-in-Python-and-JavaScript/blob/master/Stack.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{margin:'20px'}} disableElevation >JavaScript</Button></a>
             </CardContent>
           </Card>
 
@@ -58,7 +65,7 @@ function App() {
                 <li>Insert: O(1)</li>
                 <li>Delete: O(1)</li>
               </ul>
-              <a href="https://github.com/Hi-Van/DSA-in-JavaScript/blob/master/Queue.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{ display:'block', margin:'auto'}} disableElevation >JavaScript</Button></a>
+              <a href="https://github.com/Hi-Van/DSA-in-Python-and-JavaScript/blob/master/Queue.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{margin:'20px'}} disableElevation >JavaScript</Button></a>
             </CardContent>
           </Card>
         </Box>
