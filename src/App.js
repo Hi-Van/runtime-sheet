@@ -84,7 +84,7 @@ function App() {
 
           <Card style={{margin: '20px'}}>
             <CardContent>
-              <h1 className="ds">Breadth First Search</h1>
+              <h1 className="ds">BFS</h1>
               <ul>
                 <li>Traversal: O( | V | + | E | )</li>
               </ul>
@@ -94,7 +94,7 @@ function App() {
 
           <Card style={{margin: '20px'}}>
             <CardContent>
-              <h1 className="ds">Depth First Search</h1>
+              <h1 className="ds">DFS</h1>
               <ul>
                 <li>Traversal: O( | V | + | E | )</li>
               </ul>
