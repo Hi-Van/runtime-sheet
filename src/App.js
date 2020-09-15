@@ -16,7 +16,7 @@ function App() {
         </div>
         
         <Box display="flex" flexDirection="row" flexWrap="wrap" justifyContent="center">
-          <Card style={{margin: '40px'}}>
+          <Card style={{margin: '20px'}}>
             <CardContent>
               <h1 className="ds">Singly Linked List</h1>
               <ul>
@@ -30,7 +30,7 @@ function App() {
             </CardContent>
           </Card>
 
-          <Card style={{margin: '40px'}}>
+          <Card style={{margin: '20px'}}>
             <CardContent>
               <h1 className="ds">Doubly Linked List</h1>
               <ul>
@@ -43,7 +43,7 @@ function App() {
             </CardContent>
           </Card>
 
-          <Card style={{margin: '40px'}}>
+          <Card style={{margin: '20px'}}>
             <CardContent>
               <h1 className="ds">Stack</h1>
               <ul>
@@ -56,7 +56,7 @@ function App() {
             </CardContent>
           </Card>
 
-          <Card style={{margin: '40px'}}>
+          <Card style={{margin: '20px'}}>
             <CardContent>
               <h1 className="ds">Queue</h1>
               <ul>
@@ -66,6 +66,39 @@ function App() {
                 <li>Delete: O(1)</li>
               </ul>
               <a href="https://github.com/Hi-Van/DSA-in-Python-and-JavaScript/blob/master/Queue.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{margin:'20px'}} disableElevation >JavaScript</Button></a>
+            </CardContent>
+          </Card>
+
+          <Card style={{margin: '20px'}}>
+            <CardContent>
+              <h1 className="ds">Binary Search Tree</h1>
+              <ul>
+                <li>Access: O(n)</li>
+                <li>Search: O(n)</li>
+                <li>Insert: O(n)</li>
+                <li>Delete: O(n)</li>
+              </ul>
+              <a href="https://github.com/Hi-Van/DSA-in-Python-and-JavaScript/blob/master/Queue.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{margin:'20px'}} disableElevation >JavaScript</Button></a>
+            </CardContent>
+          </Card>
+
+          <Card style={{margin: '20px'}}>
+            <CardContent>
+              <h1 className="ds">Breadth First Search</h1>
+              <ul>
+                <li>Traversal: O( | V | + | E | )</li>
+              </ul>
+              <a href="https://github.com/Hi-Van/DSA-in-Python-and-JavaScript/blob/master/BFS.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{margin:'20px'}} disableElevation >JavaScript</Button></a>
+            </CardContent>
+          </Card>
+
+          <Card style={{margin: '20px'}}>
+            <CardContent>
+              <h1 className="ds">Depth First Search</h1>
+              <ul>
+                <li>Traversal: O( | V | + | E | )</li>
+              </ul>
+              <a href="https://github.com/Hi-Van/DSA-in-Python-and-JavaScript/blob/master/DFS.js" target="_blank" rel="noopener noreferrer"><Button variant="contained" color="secondary" size="large" style={{margin:'20px'}} disableElevation >JavaScript</Button></a>
             </CardContent>
           </Card>
         </Box>
